@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wpedantic -Wextra -Wfatal-errors \
 LDLIBS = -fopenmp -latomic
 
 build:
-	cc $(CFLAGS) $(LDLIBS) -o bin/lispy src/main.c src/parser.c  src/mpc.c
+	cc $(CFLAGS) $(LDLIBS) -o bin/alisp src/main.c src/parser.c  src/mpc.c
 
 run:
-	bin/lispy
+	bin/alisp

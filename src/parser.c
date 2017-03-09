@@ -1,4 +1,4 @@
-#include "lispy.h"
+#include "alisp.h"
 
 #include <stdio.h>
 
